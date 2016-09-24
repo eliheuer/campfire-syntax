@@ -1,0 +1,15 @@
+{
+  "name": "campfire-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "An Atom syntax theme in warm colors.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/campfire-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
