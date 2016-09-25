@@ -4,28 +4,45 @@
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @warm;
-@syntax-cursor-color: @warm;
-@syntax-selection-color: @hottest;
-@syntax-background-color: @coolest;
+@syntax-text-color: @pink;
+@syntax-background-color: @dark-gray;
+@syntax-cursor-color: #444;
+@syntax-cursor-line-background-color: #ffffd7;
+@syntax-selection-color: darken(@syntax-background-color, 5%);
 
 // Guide colors
-@syntax-wrap-guide-color: @warm;
-@syntax-indent-guide-color: @warm;
-@syntax-invisible-character-color: @warm;
+@syntax-wrap-guide-color: @lighter-gray;
+@syntax-indent-guide-color: @grey300;
+@syntax-invisible-character-color: @light-gray;
 
 // For find and replace markers
-@syntax-result-marker-color: @warm;
-@syntax-result-marker-color-selected: @warm;
+@syntax-result-marker-color: #ffff00;
+@syntax-result-marker-color-selected: #ccccff;
 
 // Gutter colors
-@syntax-gutter-text-color: @warm;
-@syntax-gutter-text-color-selected: @warm;
-@syntax-gutter-background-color: @warm;
-@syntax-gutter-background-color-selected: @warm;
+@syntax-gutter-text-color: @gray;
+@syntax-gutter-text-color-selected: @darker-gray;
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-selection-color;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @warm;
-@syntax-color-added: @warm;
-@syntax-color-modified: @warm;
-@syntax-color-removed: @warm;
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
+
+// Basic syntax elements
+@default-plain-text: @pink100;
+@default-text: #008080;
+@default-variables: #002d7a;
+@default-entities: @default-text;
+@default-modifiers: #800080;
+@default-operators: #006fe0;
+@default-punctuations: @gray900;
+@default-strings: #d14;
+@default-numbers: #099;
+@default-comments: @gray500;
+@default-comments-documentation: #dd1144;
+@default-annotations: @gray700;
+@default-meta-tags: #b85c00;
+@default-doctype: @gray;
